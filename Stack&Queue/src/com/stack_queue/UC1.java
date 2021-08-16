@@ -4,14 +4,14 @@ package com.stack_queue;
 public class UC1 {
 		public static void main(String[] args)   
 		{  
-		Stack<Integer> stk= new Stack<>();  
+		Stack<Integer> stack = new Stack<>();  
 		boolean result = stk.empty();  
-		stk.push(70);  
-		stk.push(30);  
-		stk.push(56);  
+		stack.push(70);  
+		stack.push(30);  
+		stack.push(56);  
 		
 		System.out.println("Elements in Stack: " + stk);  
-		result = stk.empty();  
+		result = stack.empty();  
 		}  
 
 }
